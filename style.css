@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: "Special Elite";
+
+}
+
+.text {
+    --delay: 0s;
+}
+
+.letter {
+    animation-delay: calc( var(--delay) * 0.1s);
+}
